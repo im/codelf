@@ -10,8 +10,8 @@ import AppModel from '../AppModel';
  * 所以，如果你想二次开发，请单独申请自己的 Baidu 翻译 API 的 KEY，否则会直接影响 CODELF 的用户。
  * Baidu 翻译 API 申请参看： https://api.fanyi.baidu.com/api/trans/product/apidoc
  */
-const translateAppId = '20191206000363640';
-const translateKey = '4hJrdEmxB3M42OYwhAPA';
+const translateAppId = '20160301000014105';
+const translateKey = 'bDywgmVj1zdvUMULCMVo';
 const translateSalt = Date.now();
 const translateEndpoint = `//fanyi-api.baidu.com/api/trans/vip/translate?callback=?&from=auto&to=en&appid=${translateAppId}&salt=${translateSalt}`;
 
