@@ -260,6 +260,7 @@ body.dark {
 }
 
 .app .nav-bar-container {
+  display: none;
   position: relative;
   top: 0;
   z-index: 10;
@@ -738,6 +739,7 @@ body.dark .app .main-container .search-bar__input:focus, body.dark .app .main-co
 }
 
 .app .main-container .slogan-image {
+  display: none;
   padding: 2rem 1rem;
 }
 
@@ -817,6 +819,7 @@ body.dark .app .main-container .search-bar__input:focus, body.dark .app .main-co
 }
 
 .app .notice-container {
+  display: none;
   position: fixed;
   bottom: 0;
   left: 0;
