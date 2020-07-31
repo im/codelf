@@ -77,9 +77,9 @@ export default function SearchBar(props) {
 
   return (
     <div className='search-bar'>
-      <div className='search-bar__desc'>
+      {/* <div className='search-bar__desc'>
         Search over GitHub, Bitbucket, GitLab to find real-world usage variable names
-      </div>
+      </div> */}
       <form action="javascript:void(0);">
         <Input ref={inputEl}
           onChange={() => updateState({ valChanged: true })}
@@ -105,7 +105,7 @@ export default function SearchBar(props) {
           </datalist>
         </Input>
       </form>
-      <div className='search-bar__plugins'>
+      {/* <div className='search-bar__plugins'>
         Extensions:&nbsp;
         <a href='https://github.com/unbug/codelf#codelf-for-vs-code'
           target='_blank' rel='noopener noreferrer'>VS Code</a>,&nbsp;
@@ -117,7 +117,7 @@ export default function SearchBar(props) {
           target='_blank' rel='noopener noreferrer'>WebStorm</a>,&nbsp;
         <a href='https://github.com/unbug/codelf/issues/63'
           target='_blank' rel='noopener noreferrer'>Alfred</a>
-      </div>
+      </div> */}
     </div>
   )
 }

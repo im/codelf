@@ -7,7 +7,7 @@ import HashHandler from '../utils/HashHandler';
 import VariableList from '../components/VariableList';
 import SearchError from '../components/SearchError';
 import Loading from '../components/Loading';
-import Donate from '../components/Donate';
+// import Donate from '../components/Donate';
 import Suggestion from '../components/Suggestion';
 import SourceCode from '../components/SourceCode';
 import AppModel from '../models/AppModel';
@@ -196,7 +196,7 @@ export default function MainContainer(props) {
       {state.variableRequesting ? <Loading /> : (state.isError ? <SearchError /> : '')}
       {renderSloganImage()}
       <VariableList {...state} onOpenSourceCode={handleOpenSourceCode} />
-      {state.variableList.length ? <Donate {...state} /> : ''}
+      {/* {state.variableList.length ? <Donate {...state} /> : ''} */}
       <SourceCode {...state}
         onRequestSourceCode={handleRequestSourceCode}
         onCloseSourceCode={handleCloseSourceCode} />

@@ -23,9 +23,9 @@ class AppModel extends BaseModel {
   }
 
   analytics(param) {
-    (this.isGithub || this.debug) && setTimeout(function () {
-      Navigator.getFrame(null).setAttribute('src', '//www.mihtool.com/analytics.html?codelf' + (param ? ('&' + param) : ''));
-    }, param ? 500 : 1000);
+    // (this.isGithub || this.debug) && setTimeout(function () {
+    //   Navigator.getFrame(null).setAttribute('src', '//www.mihtool.com/analytics.html?codelf' + (param ? ('&' + param) : ''));
+    // }, param ? 500 : 1000);
   }
 
   genPersistenceKey(key) {

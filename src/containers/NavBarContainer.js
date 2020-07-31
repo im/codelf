@@ -3,9 +3,9 @@ import { Container, Icon, Popup } from 'semantic-ui-react';
 // import CopybookModel from '../models/CopybookModel';
 
 export default function NavBarContainer() {
-  function handleOpenCopybook() {
-    // CopybookModel.update({ visible: true });
-  }
+  // function handleOpenCopybook() {
+  //   // CopybookModel.update({ visible: true });
+  // }
 
   return (
     <Container className='nav-bar-container'>

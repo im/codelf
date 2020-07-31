@@ -3,7 +3,7 @@ import { Icon, Popup } from 'semantic-ui-react';
 
 export default function NoticeContainer() {
   const listEl = useRef(null);
-  const [activeIndex, setDisable] = useSliderEffect(listEl);
+  const [ setDisable] = useSliderEffect(listEl);
 
   return (
     <div className='notice-container' ref={listEl} onMouseEnter={() => setDisable(true)} onMouseLeave={() => setDisable(false)}>
